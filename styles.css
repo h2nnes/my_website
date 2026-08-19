@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "GleffMono";
+  src: url(fonts/DGMGleffMono-Mono.otf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MartinaPlantijn";
+  src: url(Fonts/MartinaPlantijn/MartinaPlantijn-LightItalic.otf) format("opentype");
+  font-weight: 300;
+  font-style: italic;
+} 
+
+body {
+  font-family: "GleffMono";
+  font-size: 11px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000; /* Setzt eine blaue Textfarbe */
+}
+
+.about {
+  font-family: "GleffMono";
+  font-size: 40px;
+}
+
+.stt-icon img {
+  width: 22px;
+  height: auto;
+}
+
+.stt-icon {
+  padding-left: 8px;
+  align-self: center;
+  height: 22px;
+}
+
+.stt-link {
+  font-family: 'MartinaPlantijn';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 30px;
+  align-self: center;
+  padding-top: 4px;
+}
+
+.shiftableTypeTool-row {
+  width: 375px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 4px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.oneColRow {
+  background: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+/* =========================
+   BASIS – MOBILE FIRST
+   ========================= */
+
+.vita {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.vita-row {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  column-gap: 15px;
+}
+
+.vita-year,
+.vita-text {
+  font-family: 'GleffMono';
+  font-size: 11px;
+  line-height: 1.2;
+}
+
